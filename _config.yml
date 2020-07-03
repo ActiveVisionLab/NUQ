@@ -1,0 +1,24 @@
+title: Finding Non-Uniform Quantization Schemes using Multi-Task Gaussian Processes
+description: Finding Non-Uniform Quantization Schemes using Multi-Task Gaussian Processes
+url: nuq.avlcode.org
+signoff: Marcelo Gennari Do Nascimento
+disqus_shortname:
+facebook_appid:
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name: Home
+    url: index.html
+  - name: <strong>AVLCode</strong>
+    url: https://code.active.vision
+    external: true
+  - name: <strong>GitHub</strong>
+    url: https://github.com/ActiveVisionLab/NUQ
+    external: true
+
+highlighter: pygments
+permalink: pretty
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - smart

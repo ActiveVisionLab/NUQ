@@ -1,0 +1,32 @@
+---
+layout: index
+title: "NUQ: Finding Non-Uniform Quantization Schemes using Multi-Task Gaussian Processes"
+---
+
+This is the landing page for paper **Finding Non-Uniform Quantization Schemes using Multi-Task Gaussian Processes**.
+
+## Abstract
+
+We propose a novel method for neural network quantization that caststhe neural architecture search problem as one of hyperparameter search to findnon-uniform bit distributions throughout the layers of a CNN. We perform thesearch assuming a Multi-Task Gaussian Processes prior, which splits the problemto multiple tasks, each corresponding to different number of training epochs, andexplore the space by sampling those configurations that yield maximum informa-tion. We then show that with significantly lower precision in the last layers weachieve a minimal loss of accuracy with appreciable memory savings. We testour findings on the CIFAR10 and ImageNet datasets using the VGG, ResNet andGoogLeNet architectures.
+
+## Code
+
+The code for reproducing results in the paper can be obtained from the [GitHub repository](https://github.com/ActiveVisionLab/NUQ).
+
+## Citation
+
+BiBTeX:
+
+```
+@misc{Gennari2018,
+author = {Gennari, Marcelo and Costain, Theo W. and Prisacariu, Victor Adrian},
+title = {Finding Non-Uniform Quantization Schemesusing Multi-Task Gaussian Processes},
+<!-- howpublished = {\url{https://arxiv.org/abs/1901.01928}}, -->
+year = {2020},
+month = {August}
+}
+```
+
+Plain text:
+
+Marcelo Gennari, Theo W. Costain, Victor A. Prisacariu, "Finding Non-Uniform Quantization Schemes using Multi-Task Gaussian Processes", in [arXiv:TODO](https://arxiv.org/abs/), 2020
