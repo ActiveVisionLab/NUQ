@@ -18,7 +18,3 @@ links:
 
 highlighter: pygments
 permalink: pretty
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - smart
