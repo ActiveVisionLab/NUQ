@@ -7,8 +7,6 @@ facebook_appid:
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
-  - name: Home
-    url: index.html
   - name: <strong>AVLCode</strong>
     url: https://code.active.vision
     external: true
