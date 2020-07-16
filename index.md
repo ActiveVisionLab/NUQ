@@ -21,7 +21,7 @@ BiBTeX:
 @misc{Gennari2018,
 author = {Gennari, Marcelo and Costain, Theo W. and Prisacariu, Victor Adrian},
 title = {Finding Non-Uniform Quantization Schemesusing Multi-Task Gaussian Processes},
-<!-- howpublished = {\url{https://arxiv.org/abs/1901.01928}}, -->
+howpublished = {\url{https://arxiv.org/abs/2007.07743}},
 year = {2020},
 month = {August}
 }
@@ -29,4 +29,4 @@ month = {August}
 
 Plain text:
 
-Marcelo Gennari, Theo W. Costain, Victor A. Prisacariu, "Finding Non-Uniform Quantization Schemes using Multi-Task Gaussian Processes", in [arXiv:TODO](https://arxiv.org/abs/), 2020
+Marcelo Gennari, Theo W. Costain, Victor A. Prisacariu, "Finding Non-Uniform Quantization Schemes using Multi-Task Gaussian Processes", in [arXiv:2007.07743](https://arxiv.org/abs/2007.07743), 2020
