@@ -7,8 +7,7 @@ This is the landing page for paper **Finding Non-Uniform Quantization Schemes us
 
 ## Abstract
 
-We propose a novel method for neural network quantization that caststhe neural architecture search problem as one of hyperparameter search to findnon-uniform bit distributions throughout the layers of a CNN. We perform thesearch assuming a Multi-Task Gaussian Processes prior, which splits the problemto multiple tasks, each corresponding to different number of training epochs, andexplore the space by sampling those configurations that yield maximum informa-tion. We then show that with significantly lower precision in the last layers weachieve a minimal loss of accuracy with appreciable memory savings. We testour findings on the CIFAR10 and ImageNet datasets using the VGG, ResNet andGoogLeNet architectures.
-
+We propose a novel method for neural network quantization that casts the neural architecture search problem as one of hyperparameter search to find non-uniform bit distributions throughout the layers of a CNN. We perform the search assuming a Multi-Task Gaussian Processes prior, which splits the problem to multiple tasks, each corresponding to different number of training epochs, and explore the space by sampling those configurations that yield maximum information. We then show that with significantly lower precision in the last layers we achieve a minimal loss of accuracy with appreciable memory savings. We test our findings on the CIFAR10 and ImageNet datasets using the VGG, ResNet and GoogLeNet architectures.
 ## Code
 
 The code for reproducing results in the paper can be obtained from the [GitHub repository](https://github.com/ActiveVisionLab/NUQ).
