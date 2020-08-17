@@ -5,6 +5,7 @@ Implementation of ECCV2020 ["Finding Non-Uniform Quantization Using Multi-Task G
 
 * Python >= 3.6
 * PyTorch >= 1.0
+* CUB == 1.8
 * GPyTorch
 * Pyro
 
@@ -12,7 +13,10 @@ Implementation of ECCV2020 ["Finding Non-Uniform Quantization Using Multi-Task G
 
 This depends on the [Quantization](https://github.com/ActiveVisionLab/Quantization) github repo, which implements cuda version of BFP and [DSConv](https://arxiv.org/abs/1901.01928)
 
-Make sure to `git submodule update --init --recursive` and follow the installation steps in the Quantization repo
+Make sure to `git submodule update --init --recursive` and follow the installation steps in the Quantization repo:
+
+1. Download [CUB](https://github.com/NVlabs/cub) and put it in `/home/your_username/libs/` (or the file indicated at `NUQ/BlackBox/Quantization/src/setup.py:22`)
+2. `cd /path/to/NUQ/BlackBox/Quantization/src/` then `python build_ext --inplace`.
 
 ## Config
 
