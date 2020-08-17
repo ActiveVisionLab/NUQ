@@ -1,0 +1,3 @@
+[submodule "BlackBox/Quantization"]
+	path = BlackBox/Quantization
+	url = git@github.com:ActiveVisionLab/Quantization.git
